@@ -1,5 +1,5 @@
 Const button = document.getElementById("tema");
-button.addEventListener("click", functionname(params) {
+button.addEventListener("click",function name(params) {
     
 } () {
     document.body.classList.toggle("dark");
