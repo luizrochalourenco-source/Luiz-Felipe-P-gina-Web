@@ -1,6 +1,7 @@
-const botao = document.getElementById('btnMudarCor');
+const botao = document.getElementById('meuBotao');
 
-botao.addEventListener('click', () => {
-  // O classList.toggle adiciona a classe se ela não existir, e remove se existir
-  document.body.classList.toggle('fundo-azul');
+botao.addEventListener('click', function() {
+  document.body.style.backgroundColor = 'black';
+  document.body.style.color = 'white';
+  botao.innerText = 'Fundo Preto';
 });
